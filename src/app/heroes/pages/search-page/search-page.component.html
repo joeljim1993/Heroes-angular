@@ -1,1 +1,14 @@
-<p>search-page works!</p>
+
+<div class="flex flex-column">
+
+  <h3>Buscardor </h3>
+  <mat-form-field p-2>
+    <mat-label> Buscador de Heroes</mat-label>
+    <input type="text"
+    matInput
+    [formControl]="searchInput"
+    >
+  </mat-form-field>
+
+  {{ searchInput.value | json }}
+</div>
