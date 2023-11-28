@@ -1,14 +1,36 @@
 
-<div class="flex flex-column">
 
-  <h3>Buscardor </h3>
-  <mat-form-field p-2>
-    <mat-label> Buscador de Heroes</mat-label>
-    <input type="text"
-    matInput
-    [formControl]="searchInput"
-    >
-  </mat-form-field>
 
-  {{ searchInput.value | json }}
-</div>
+
+
+  <div class="flex flex-column">
+
+    <h3>Buscardor </h3>
+    <mat-form-field p-2>
+      <mat-label> Buscador de Heroes</mat-label>
+      <input 
+        type="text"
+        matInput
+        [formControl]="searchInput"
+        (input)="searchHero()"
+        [matAutocomplete]="auto"
+        >
+
+        <mat-autocomplete autoActiveFirstOption
+          #auto="matAutocomplete">
+          <mat-option *ngFor="let hero of heroes" [value]="hero.superhero">
+            {{ hero.superhero }}
+          </mat-option>
+
+          <mat-option value="">
+            No se encontro nada con el termino {{ searchInput.value}}
+          </mat-option>
+
+        </mat-autocomplete>
+     
+  
+    </mat-form-field>
+  
+    {{ searchInput.value | json }}
+  </div>
+

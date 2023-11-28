@@ -8,20 +8,13 @@
   ],
   "heroes": [
     {
-      "id": "dc-batman",
-      "superhero": "Batman",
-      "publisher": "DC Comics",
-      "alter_ego": "Bruce Wayne",
-      "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne"
-    },
-    {
       "id": "dc-superman",
       "superhero": "Superman",
       "publisher": "DC Comics",
       "alter_ego": "Kal-El",
       "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
+      "characters": "Kal-El",
+      "alt_img": "https://static.wixstatic.com/media/70f2b2_ef934a6304f9400b8a9748c03e1754ca~mv2.png/v1/fill/w_824,h_463,al_c,lg_1,q_90/70f2b2_ef934a6304f9400b8a9748c03e1754ca~mv2.png"
     },
     {
       "id": "dc-flash",
@@ -166,6 +159,24 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "Au07XLk",
+      "superhero": "naruto",
+      "publisher": "Marvel Comics",
+      "alter_ego": "naruto",
+      "first_appearance": "naruto serie",
+      "characters": "",
+      "alt_img": "https://www.freepnglogos.com/uploads/naruto-png/image-kunai-naruto-fictional-battle-omniverse-23.png"
+    },
+    {
+      "id": "77fatdx",
+      "superhero": "naruto",
+      "publisher": "Marvel Comics",
+      "alter_ego": "naruto",
+      "first_appearance": "naruto serie",
+      "characters": "",
+      "alt_img": "https://www.freepnglogos.com/uploads/naruto-png/image-kunai-naruto-fictional-battle-omniverse-23.png"
     }
   ]
 }

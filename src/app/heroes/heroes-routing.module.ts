@@ -14,7 +14,7 @@ const routes: Routes = [
     children:[
       {path:"new-page", component:NewPageComponent},
       {path:"search", component:SearchPageComponent},
-      {path:"edith/:id", component:SearchPageComponent},
+      { path: 'edit/:id', component: NewPageComponent },
       {path:"list", component:ListPageComponent},
       {path:":id", component:HeroPageComponent},
       {path:"**", redirectTo:"list"},
